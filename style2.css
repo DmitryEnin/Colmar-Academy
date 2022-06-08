@@ -1,0 +1,51 @@
+.container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap:10px;
+    padding: 0 2rem;
+}
+.container div {
+    background-color: grey;
+}
+
+.logo {
+    font-size: 2rem;
+    justify-content: space-between;
+}
+ .learn-text {
+     padding: 5rem 0 2rem 1.5rem;
+     font-size: 1.5rem;
+ }
+
+ .learn-text button {
+     width: 10rem;
+     background-color: rgb(73, 70, 70);
+ }
+
+ 
+
+ .Students img {
+     width: 100%;
+     padding: 0 0 0 0.5rem;
+ }
+
+ .navbar-links ul {
+    margin: 0;
+    padding: 0 0.5rem;
+    display: flex;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color:black;
+    padding: 1rem;
+    display: flex;
+}
+.navbar-links li {
+    list-style: none;
+}
+
+.practicing img {
+    width: 100%;
+     padding: 0 0.5rem;
+}
